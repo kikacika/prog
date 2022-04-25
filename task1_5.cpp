@@ -28,7 +28,7 @@ void reverse(stack *&h) { //"обращение"стека
  h = h1;
 }
 bool glas (char x){
-    if ( x == 'a'  x == 'u' x == 'e'|| x == 'i'|| x == 'o'|| x == 'y' ) return true;
+    if ( x == 'a' || x == 'u' || x == 'e'|| x == 'i'|| x == 'o'|| x == 'y' ) return true;
     return false;
 }
 stack* result(stack*& h){
